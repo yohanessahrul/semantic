@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Semanctic with Semantic UI</title>
+    <title>Semantic Web</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
@@ -20,31 +20,31 @@
     <div id="app">
         <div class="ui top fixed menu">
                 
-                <div class="item">
-                <img src="https://semantic-ui.com/images/logo.png" alt="">
-                </div>
+            <div class="item">
+            <img src="https://semantic-ui.com/images/logo.png" alt="">
+            </div>
     
-                <a class="item">Features</a>
-                <a class="item">Testimonials</a>
-                <a class="item">Sign-in</a>
+            <a class="item">Features</a>
+            <a class="item">Testimonials</a>
+            <a class="item">Sign-in</a>
                     
-                <div class="right menu">
-                    <div class="ui dropdown item">
-                        Language <i class="dropdown icon"></i>
-                        <div class="menu">
-                        <a class="item">English</a>
-                        <a class="item">Russian</a>
-                        <a class="item">Spanish</a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="ui primary button">Sign Up</div>
+            <div class="right menu">
+                <div class="ui dropdown item">
+                    Language <i class="dropdown icon"></i>
+                    <div class="menu">
+                    <a class="item">English</a>
+                    <a class="item">Russian</a>
+                    <a class="item">Spanish</a>
                     </div>
                 </div>
+                <div class="item">
+                    <div class="ui primary button">Sign Up</div>
+                </div>
+            </div>
+
         </div>
         
         <div style="height: 300px; background: #FF9B00; width: 100%;"></div>
-    
     
         <div class="ui container">
     
@@ -91,7 +91,7 @@
             },
             methods: {
                 limitedString: function (value) {
-                    return value.substring(0, 200)
+                    return value.substring(0, 250) + '...'
                 }
             },
             beforeCreate: function () {
